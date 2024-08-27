@@ -26,7 +26,7 @@ def get_weeks_weather(latitude, longitude):
     data = response.json()
     return data
 
-cords = get_coordinates("picayune")
+cords = get_coordinates("Cedarhurst")
 
 day = get_current_weather(cords[0], cords[1])
 week = get_weeks_weather(cords[0], cords[1])
