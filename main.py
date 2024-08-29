@@ -96,8 +96,6 @@ def weather_gui():
     show_graph_btn = tk.Button(frame, text=f"Show Chart", command=lambda: plot_weather(days, city_high_temps_converted, city_low_temps_converted))
     show_graph_btn.grid(row=3, column=5, padx=5, pady=5)
     
-def test():
-    print("test")
 # Create the main window
 root = tk.Tk()
 root.title("Weather App")
