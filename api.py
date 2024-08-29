@@ -25,6 +25,10 @@ def get_weeks_weather(latitude, longitude):
 
     return data
 
+<<<<<<< HEAD:api.py
+=======
+cords = get_coordinates("Cedarhurst")
+>>>>>>> 404e16fc7628841ee2a6568b24e161424003d999:project.py
 
 def get_dates(latitude, longitude):
     weather_url = f"https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&daily=temperature_2m_max,temperature_2m_min,precipitation_sum&timezone=America/New_York"

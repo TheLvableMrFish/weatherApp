@@ -5,6 +5,10 @@
 # Todd Kemmerer
 # Sheba Coble
 
+# Note: If you encounter an ImportError indicating that matplotlib is not installed,
+# you can install it using pip. Run the following command in your terminal or command prompt:
+# pip install matplotlib
+
 # tkinter is a gui library
 import tkinter as tk
 
